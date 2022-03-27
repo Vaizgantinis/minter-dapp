@@ -6,12 +6,12 @@
 
 :root {
   --font-primary: 'Press Start 2P', sans-serif;
-  --font-secondary: 'Cursive', serif;
-  --font-code: 'Roboto', monospace;
+  --font-secondary: 'Press Start 2P', serif;
+  --font-code: 'Press Start 2P', monospace;
   --bg-color: rgb(70, 33, 155);
   --font-color: #00ff22;
   --btn-bg-color: #ff00c8;
-  --accent-color: #0099ff8f;
+  --accent-color: #ffffff;
   --header-shadow: rgb(255, 255, 255) 120px 150px 185px;
 }
 
