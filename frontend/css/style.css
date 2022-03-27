@@ -1,20 +1,18 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
-  --card-shadow: var(--accent-color) 0px 0px 20px;
+  --font-primary: 'Press Start 2P', sans-serif;
+  --font-secondary: 'Cursive', serif;
+  --font-code: 'Roboto', monospace;
+  --bg-color: rgb(70, 33, 155);
+  --font-color: #00ff22;
+  --btn-bg-color: #ff00c8;
+  --accent-color: #0099ff8f;
+  --header-shadow: rgb(255, 255, 255) 120px 150px 185px;
 }
 
 * {
