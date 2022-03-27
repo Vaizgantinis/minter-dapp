@@ -12,7 +12,7 @@
   --font-color: #00ff22;
   --btn-bg-color: #ff00c8;
   --accent-color: #000000;
-  --header-shadow: rgb(255, 255, 255) 120px 150px 185px;
+  --header-shadow: rgba(255, 255, 255, 0) 120px 150px 185px;
 }
 
 * {
@@ -316,14 +316,14 @@ section {
 
 .splide {
   position: absolute;
-  top: 90px;
+  top: 50px;
   left: 5rem;
   z-index: -1;
 }
 
 .splide__slide {
   border: var(--accent-color) solid;
-  border-width: 5px 10px;
+  border-width: 2px 4px;
 }
 
 .splide__slide img {
