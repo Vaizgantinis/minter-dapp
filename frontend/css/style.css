@@ -236,7 +236,7 @@ section {
 }
 
 .info-container {
-  display: center;
+  display: flex;
   justify-content: space-between;
   width: 100%;
   text-align: center;
