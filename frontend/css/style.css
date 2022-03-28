@@ -12,7 +12,7 @@
   --font-color: #00ff22;
   --btn-bg-color: #e90289;
   --accent-color: #11002c;
-  --header-shadow: rgba(255, 255, 255, 0) 5px 10px 10px;
+  --header-shadow: rgb(255, 0, 98) 0px 15px 20px;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  height: 1000vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
