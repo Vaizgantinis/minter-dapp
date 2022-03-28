@@ -8,11 +8,11 @@
   --font-primary: 'Press Start 2P', sans-serif;
   --font-secondary: 'Press Start 2P', serif;
   --font-code: 'Press Start 2P', monospace;
-  --bg-color: rgb(70, 33, 155);
+  --bg-color: rgb(188, 160, 253);
   --font-color: #00ff22;
   --btn-bg-color: #ff00c8;
   --accent-color: #ffffff;
-  --header-shadow: rgba(255, 255, 255, 0.555) 5px 10px 10px;
+  --header-shadow: rgba(255, 255, 255, 0) 5px 10px 10px;
 }
 
 * {
