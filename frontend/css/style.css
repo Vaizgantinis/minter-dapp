@@ -11,8 +11,8 @@
   --bg-color: rgb(70, 33, 155);
   --font-color: #00ff22;
   --btn-bg-color: #ff00c8;
-  --accent-color: #212122;
-  --header-shadow: rgba(255, 255, 255, 0.842) 5px 10px 10px;
+  --accent-color: #ffffff;
+  --header-shadow: rgba(255, 255, 255, 0.555) 5px 10px 10px;
 }
 
 * {
@@ -33,7 +33,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 480px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
