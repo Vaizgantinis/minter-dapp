@@ -16,8 +16,8 @@
 }
 
 * {
-  padding: 0;
-  margin: 0;
+  padding: 20;
+  margin: 20;
   box-sizing: border-box;
 }
 
@@ -33,7 +33,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -64,7 +64,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 0 auto 0 10vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -111,7 +111,7 @@ header .container {
   transition: all 0.3s ease;
   box-shadow: var(--header-shadow);
   cursor: pointer;
-  position: relative;
+  position: center;
   text-decoration: none;
   outline: none;
 }
@@ -178,7 +178,7 @@ section {
 }
 .countdown .clock-item {
   list-style: none;
-  width: 70px;
+  width: 100px;
   height: auto;
 }
 .countdown .clock-item .count-number {
