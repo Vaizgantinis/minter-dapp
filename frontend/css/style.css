@@ -8,10 +8,11 @@
   --font-primary: 'Press Start 2P', sans-serif;
   --font-secondary: 'Press Start 2P', serif;
   --font-code: 'Press Start 2P', monospace;
-  --bg-color: rgb(57, 2, 128);
+  --bg-color: rgb(178, 0, 255);
   --font-color: #00ff22;
-  --btn-bg-color: #e90289;
+  --btn-bg-color: #00FF5A;
   --accent-color: #11002c;
+  --accent-color2: #ff0080;
   --header-shadow: rgb(255, 0, 98) 0px 15px 20px;
 }
 
@@ -22,10 +23,10 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--accent-color2);
   display: flex;
   flex-flow: column;
-  height: 200vh;
+  height: 150vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -140,7 +141,7 @@ header .container {
   position: relative;
   background-color: var(--bg-color);
   border-radius: 5px;
-  border: 3px solid var(--accent-color);
+  border: 0px solid var(--accent-color);
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
