@@ -26,7 +26,7 @@ body {
   background-color: var(--accent-color2);
   display: flex;
   flex-flow: column;
-  height: 150vh;
+  height: auto;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
